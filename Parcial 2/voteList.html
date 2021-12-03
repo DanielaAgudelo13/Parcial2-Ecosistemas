@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Parcial 2</title>
+      <link rel="stylesheet" href="./style.css" />
+   </head>
+   <body>
+      <h1>Biblioteca Icesi</h1>
+      <p>Vota tu libro favorito</p>
+
+      <article class="booksContainer">
+         <section class="book">
+            <div>
+               <h1>nombre</h1>
+
+               <div class="bookStars">
+                  <p>*</p>
+                  <p>*</p>
+                  <p>*</p>
+                  <p>*</p>
+                  <p>*</p>
+               </div>
+            </div>
+
+            <p class="bookRating">4.6</p>
+         </section>
+      </article>
+
+      <button class="btn btnLogout">logout</button>
+   </body>
+
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+   <script src="./js/firebase.js"></script>
+   <script src="./js/book.js"></script>
+   <script src="./js/votation.js"></script>
+</html>
